@@ -37,8 +37,8 @@ fBodyGyroJerkMag
 
 ## Transformations
 
-*The training and test data from the original dataset was combined into one large dataset
-*Data was subset to include only columns that track mean and standard deviation
-*Activity and Subject data was added to the dataset
-*Data was transformed to calculate the average of the mean and standard deviation for each tracked variable broken out by Activity and Subject
-*A file, 'tidy_data.txt' is generated from the resulting transformation
+**The training and test data from the original dataset was combined into one large dataset
+**Data was subset to include only columns that track mean and standard deviation
+**Activity and Subject data was added to the dataset
+**Data was transformed to calculate the average of the mean and standard deviation for each tracked variable broken out by Activity and Subject
+**A file, 'tidy_data.txt' is generated from the resulting transformation
