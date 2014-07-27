@@ -17,23 +17,23 @@ Only the set of variables that calculated mean and standard deviation are includ
 
 Variables tracked here include:
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+* tBodyAcc-XYZ
+* tGravityAcc-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyro-XYZ
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
 
 Subject remain unchanged from the original data
 
@@ -41,8 +41,8 @@ Activity is now descriptively labeled.
 
 ## Transformations
 
-** The training and test data from the original dataset was combined into one large dataset
-** Data was subset to include only columns that track mean and standard deviation
-** Activity and Subject data was added to the dataset
-** Data was transformed to calculate the average of the mean and standard deviation for each tracked variable broken out by Activity and Subject
-** A file, 'tidy_data.txt' is generated from the resulting transformation
+* The training and test data from the original dataset was combined into one large dataset
+* Data was subset to include only columns that track mean and standard deviation
+* Activity and Subject data was added to the dataset
+* Data was transformed to calculate the average of the mean and standard deviation for each tracked variable broken out by Activity and Subject
+* A file, 'tidy_data.txt' is generated from the resulting transformation
